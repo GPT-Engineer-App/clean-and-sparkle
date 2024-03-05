@@ -117,7 +117,7 @@ const Index = () => {
   );
 
   return (
-    <Container maxW="container.md" py={10}>
+    <Container maxW="container.md" py={10} backgroundImage="https://images.unsplash.com/photo-1513694203232-719a280e022f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMGhvdXNlJTIwZXh0ZXJpb3J8ZW58MHx8fHwxNzA5NjA5MjM3fDA&ixlib=rb-4.0.3&q=80&w=1080" backgroundPosition="center" backgroundRepeat="no-repeat" backgroundSize="cover">
       <Navbar />
       {activePage === "home" && <HomePage />}
       {activePage === "services" && <ServicesPage />}
